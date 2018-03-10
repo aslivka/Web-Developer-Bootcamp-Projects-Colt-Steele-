@@ -1,0 +1,26 @@
+p {
+
+/*Content-width and height
+specify in px or percentage of parent element*/
+/*width: 200px;*/
+width: 50%; 
+/*height: 300px;*/
+
+/*Border*/
+border: 2px solid blue;
+
+/*Padding - if just padding - same thickness all directions.
+otherwise specify orientation: left, right, etc*/
+/*padding: 10px;*/	
+padding-left: 40px;
+
+/*Margin - if just margin - same thickness all directions
+Otherwise specify orientation: left, right, etc. 
+Similar to border, can specify all on one line */
+/*margin: 100px;*/
+/*margin-top: 500px;*/
+/*margin: 20px 40px 500px 100px;	*/
+/*margin: 0 auto 0 auto;*/
+/*first value sets top, bottom, 2nd value sets left,right*/
+margin: 0 auto;		
+}

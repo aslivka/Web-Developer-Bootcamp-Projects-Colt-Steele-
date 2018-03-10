@@ -1,0 +1,39 @@
+//Connecting to mongo db with user: userName
+mongo dataBase -u userName -p
+
+//Creating admin user
+var user = {
+  "user" : "admin",
+  "pwd" : "admin",
+  roles : [
+      {
+          "role" : "userAdminAnyDatabase",
+          "db" : "admin"
+      }
+  ]
+}
+
+
+//Creating user
+var user = {
+  "user" : "artikk",
+  "pwd" : "123",
+  roles : [
+      {
+          "role" : "readWrite",
+          "db" : "test"
+      }
+  ]
+}
+
+db.createUser(user);
+
+//Adding new role to user
+db.grantRolesToUser(
+  "admin",
+  [{ "role" : "readWriteAnyDatabase", "db" : "admin" }]
+)
+
+
+//Showing user profile
+db.getUser("admin");

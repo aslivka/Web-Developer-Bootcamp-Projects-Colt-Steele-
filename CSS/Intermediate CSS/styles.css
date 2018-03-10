@@ -1,0 +1,54 @@
+/*font-family
+use quotes for fonts with numbers*/
+p {
+	font-family: "Raleway";
+}
+
+h1 {
+	font-family: "Indie Flower";
+}
+
+/*font-size 
+use px or em-based on body px value as initial reference */
+body {
+	font-size: 10px;
+}
+h1 {
+	font-size: 5.0em;
+}
+p {
+	font-size: 2.0em;
+}
+span {
+	font-size: 2.0em; 
+}
+
+/*font-weight
+boldness or thickness of font
+Some options: bold, normal, 100-800 in steps of 100*/
+p {
+	font-weight: normal; 	
+}
+
+/*line-height
+line spacing, just like Word*/
+p {
+	line-height: 1.5;
+}
+
+/*text-align*/
+h1 {
+	text-align: right;
+}
+p {
+	text-align: center;
+}
+
+/*text-decorations
+used to give an underlying text effect or strikethrough*/
+p {
+	text-decoration: underline;
+}
+h1 {
+	text-decoration: line-through;
+}

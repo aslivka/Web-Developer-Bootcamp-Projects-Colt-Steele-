@@ -1,0 +1,36 @@
+body, html {
+	height: 100%;
+}
+
+#parent {
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	border: 3px solid gray;
+	background: grey;
+	position: relative;
+
+	top: 30%;
+}
+
+#child1 {
+	width: 250px;
+	height: 50px;
+	padding: 0;
+	margin: 10px auto;
+	border: 0;
+	background: blue;
+	/*display: inline-block;*/
+/*	float: top;*/
+}
+
+#child2 {
+	width: 250px;
+	height: 50px;
+	padding: 0;
+	margin: 10px auto;
+	background: blue;
+/*	display: inline-block;*/
+	/*float: right;*/
+}

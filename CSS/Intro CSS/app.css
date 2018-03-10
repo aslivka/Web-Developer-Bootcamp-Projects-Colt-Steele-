@@ -1,0 +1,55 @@
+	/*
+	Example of css property definition:;
+
+	selector {
+		property:value;
+	}	*/
+
+
+	/* selector that was redefined later in file takes priority 
+	over earlier definition
+	h1	{
+		color: blue;
+	}*/
+
+
+/* Setting colors using names */
+/*h1 {
+		color: red;
+}
+li {
+		color: green;
+}
+h4 {
+		color: purple;*/
+
+
+/*Setting colors using palettes*/
+h1 {
+		color: rgba(0,200,100, 0.8);
+		/*
+		Common Border attributes
+		width, color, style */
+/*		Version 1
+		border-color: purple;
+		border-width: 5px;
+		border-style: solid;  */
+		/*Version 2*/
+		border: 2px solid purple;
+}
+h4 {
+		background: rgb(255,100,80);
+}
+
+/*body {
+		background: pink;
+}*/
+
+body {
+/*		background: url(http://moziru.com/images/drawn-wood-3.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;*/
+		background: pink;
+}
+
+

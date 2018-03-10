@@ -1,0 +1,16 @@
+/*body {
+	background: orange;
+}*/
+li	{
+	border: 2px solid red;
+}
+
+/*One time use only*/
+#special {
+	background: yellow;
+}
+
+/*Can be reused throughout the page*/
+.completed {
+	text-decoration: line-through;
+}
